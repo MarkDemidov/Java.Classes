@@ -11,9 +11,7 @@ public class Student {
     private int group;
 
     public Student(String name, String surname, String patronymic, String address, String faculty, int date, long telephoneNumber, int course, int group) {
-        this.name = name;
-        this.surname = surname;
-        this.patronymic = patronymic;
+        this(name, surname, patronymic);
         this.address = address;
         this.faculty = faculty;
         this.date = date;
